@@ -1,0 +1,93 @@
+version: 1
+items: []
+collections:
+- collection_name: 星期一
+  enable: Monday
+  cycle: every
+  importance: 1
+  from_date: '2024-09-01'
+  content:
+  - name: 数学
+    short_name: 数
+    from_time: 08:00
+    duration: 60m
+    note: '授课教师: 李梅'
+    tags:
+    - 学习
+    - 数学
+    - 课程
+    properties:
+      teacher: 李梅
+      room: '101'
+  - name: 语文
+    short_name: 语
+    from_time: 09:00
+    duration: 60m
+    note: '授课教师: 王芳'
+    tags:
+    - 学习
+    - 语文
+    - 课程
+    properties:
+      teacher: 王芳
+      room: '102'
+- collection_name: 星期二-单周
+  enable: Tuesday
+  cycle: odd
+  importance: 1
+  from_date: '2024-09-01'
+  content:
+  - name: 物理
+    short_name: 物
+    from_time: 08:00
+    duration: 60m
+    note: '授课教师: 赵军'
+    tags:
+    - 学习
+    - 物理
+    - 课程
+    properties:
+      teacher: 赵军
+      room: '104'
+  - name: 英语
+    short_name: 英
+    from_time: 09:00
+    duration: 60m
+    note: '授课教师: 张伟'
+    tags:
+    - 学习
+    - 英语
+    - 课程
+    properties:
+      teacher: 张伟
+      room: '103'
+- collection_name: 星期二-双周
+  enable: Tuesday
+  cycle: even
+  importance: 1
+  from_date: '2024-09-01'
+  content:
+  - name: 物理
+    short_name: 物
+    from_time: 08:00
+    duration: 60m
+    note: '授课教师: 赵军'
+    tags:
+    - 学习
+    - 物理
+    - 课程
+    properties:
+      teacher: 赵军
+      room: '104'
+  - name: 英语
+    short_name: 英
+    from_time: 09:00
+    duration: 60m
+    note: '授课教师: 张伟'
+    tags:
+    - 学习
+    - 英语
+    - 课程
+    properties:
+      teacher: 张伟
+      room: '103'
